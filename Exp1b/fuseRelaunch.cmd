@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Xilinx/Exp1b/Exp1b_tb_isim_beh.exe" -prj "C:/Xilinx/Exp1b/Exp1b_tb_beh.prj" "work.Exp1b_tb" 

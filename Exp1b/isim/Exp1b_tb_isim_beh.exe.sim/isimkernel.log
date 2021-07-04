@@ -1,0 +1,29 @@
+Command line:
+   Exp1b_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  54589
+
+Fri Sep 04 23:52:42 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 4682.04 Meg
+
+ Total Signals          : 28
+ Total Nets             : 14
+ Total Signal Drivers   : 14
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 374
+Total Line Count : 41
+
+ Total Simulation Time: 0.09375 sec
+
+ Current Memory Usage: 4682.04 Meg
+
+Fri Sep 04 23:53:02 2020
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Xilinx/halfadder/halfadder_tb_isim_beh.exe" -prj "C:/Xilinx/halfadder/halfadder_tb_beh.prj" "work.halfadder_tb" 

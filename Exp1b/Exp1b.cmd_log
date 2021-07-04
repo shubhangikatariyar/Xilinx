@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Xilinx/Exp1b/Exp1b.xst" -ofn "C:/Xilinx/Exp1b/Exp1b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-2 Exp1b.ngc Exp1b.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Exp1b_map.ncd Exp1b.ngd Exp1b.pcf 
+par -w -intstyle ise -ol high -mt off Exp1b_map.ncd Exp1b.ncd Exp1b.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml Exp1b.twx Exp1b.ncd -o Exp1b.twr Exp1b.pcf 

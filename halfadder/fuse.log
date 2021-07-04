@@ -1,0 +1,16 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Xilinx/halfadder/halfadder_tb_isim_beh.exe -prj C:/Xilinx/halfadder/halfadder_tb_beh.prj work.halfadder_tb 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+ERROR:HDLCompiler:488 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 62: Illegal identifier : _period
+ERROR:HDLCompiler:488 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 75: Illegal identifier : _process
+Parsing VHDL file "C:/Xilinx/halfadder/halfadder.vhd" into library work
+Parsing VHDL file "C:/Xilinx/halfadder/halfadder_tb.vhd" into library work
+ERROR:HDLCompiler:806 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 62: Syntax error near "<".
+ERROR:HDLCompiler:488 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 62: Illegal identifier : _period
+ERROR:HDLCompiler:806 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 75: Syntax error near "<".
+ERROR:HDLCompiler:488 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 75: Illegal identifier : _process
+WARNING:HDLCompiler:1369 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 75: Possible infinite loop; process does not have a wait statement
+ERROR:HDLCompiler:854 - "C:/Xilinx/halfadder/halfadder_tb.vhd" Line 38: Unit <behavior> ignored due to previous errors.
+VHDL file C:/Xilinx/halfadder/halfadder_tb.vhd ignored due to errors

@@ -1,0 +1,71 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 2
+-n 3 -fastpaths -xml Exp1b.twx Exp1b.ncd -o Exp1b.twr Exp1b.pcf
+
+Design file:              Exp1b.ncd
+Physical constraint file: Exp1b.pcf
+Device,package,speed:     xc6slx9,csg324,C,-2 (PRODUCTION 1.21 2012-04-23)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+a              |FAC            |    8.390|
+a              |FAS            |    8.890|
+a              |FSB            |    8.651|
+a              |FSD            |    8.428|
+a              |HAC            |    8.294|
+a              |HAS            |    8.526|
+a              |HSB            |    8.332|
+a              |HSD            |    8.815|
+b              |FAC            |    8.372|
+b              |FAS            |    8.845|
+b              |FSB            |    8.606|
+b              |FSD            |    8.383|
+b              |HAC            |    8.276|
+b              |HAS            |    8.539|
+b              |HSB            |    8.345|
+b              |HSD            |    8.828|
+c              |FAC            |    8.638|
+c              |FAS            |    9.088|
+c              |FSB            |    8.849|
+c              |FSD            |    8.626|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 04 21:39:33 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4544 MB
+
+
+
